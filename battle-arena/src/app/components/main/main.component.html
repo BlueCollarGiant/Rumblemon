@@ -1,0 +1,33 @@
+<main class="main-layout">
+
+  <!-- Core Battle Layout -->
+  <div class="arena">
+
+    <!-- Left Sidebar: History -->
+    <div class="history-panel">
+      <app-history-container></app-history-container>
+    </div>
+
+    <!-- Player Side -->
+    <div class="player-panel">
+      <app-holding-container>
+        <app-player-active-list></app-player-active-list>
+      </app-holding-container>
+    </div>
+
+    <!-- Battle Result + Button -->
+    <div class="battle-panel">
+      <app-winner-box></app-winner-box>
+      <button class="battle-button">Battle!</button>
+    </div>
+
+    <!-- Computer Side -->
+    <div class="computer-panel">
+      <app-holding-container>
+        <app-computer-container></app-computer-container>
+      </app-holding-container>
+    </div>
+
+  </div>
+
+</main>
