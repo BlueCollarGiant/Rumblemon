@@ -1,13 +1,14 @@
 :host {
   display: block;
-  width: 10%;
-  max-height: 500px;
+  width: 15%;
+  max-height: 700px;
   background-color: #03031c;
   border-top: 2px solid #444;
   padding: 0.75rem 1rem;
   color: white;
   box-sizing: border-box;
   overflow-y: auto;
+  border-radius: 2px;
 }
 
 /* Optional: entries */
